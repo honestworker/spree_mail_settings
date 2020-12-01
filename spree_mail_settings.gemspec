@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.required_ruby_version = '>= 2.1.0'
 
-  s.author    = 'John Hawthorn'
-  s.email     = 'john.hawthorn@gmail.com'
-  s.homepage  = 'https://github.com/spree-contrib/spree_mail_settings'
+  s.author    = 'Ionel Kastillio'
+  s.email     = 'honestworker818@gmail.com'
+  s.homepage  = 'https://github.com/honestworker/spree_mail_settings'
   s.license   = 'BSD-3'
 
   s.files        = `git ls-files`.split("\n")
