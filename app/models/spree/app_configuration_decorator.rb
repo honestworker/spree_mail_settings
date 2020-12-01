@@ -10,8 +10,8 @@ module Spree::AppConfigurationDecorator
     base.preference :mail_host, :string, default: 'localhost'
     base.preference :mail_domain, :string, default: 'localhost'
     base.preference :mail_port, :integer, default: 25
-    base.preference :secure_connection_type, :string, default: Core::MailSettings::SECURE_CONNECTION_TYPES[0]
-    base.preference :mail_auth_type, :string, default: Core::MailSettings::MAIL_AUTH[0]
+    base.preference :secure_connection_type, :string, default: Spree::Core::MailSettings::SECURE_CONNECTION_TYPES[0]
+    base.preference :mail_auth_type, :string, default: Spree::Core::MailSettings::MAIL_AUTH[0]
     base.preference :smtp_username, :string, default: nil
     base.preference :smtp_password, :string, default: nil
 
