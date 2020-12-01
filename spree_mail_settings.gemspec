@@ -23,8 +23,9 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   spree_version = '>= 3.1.0', '<= 4.1'
+  spree_auth_version = '>= 3.1.0', '<= 4.2'
   s.add_runtime_dependency 'spree_backend', spree_version
-  s.add_runtime_dependency 'spree_auth_devise', spree_version
+  s.add_runtime_dependency 'spree_auth_devise', spree_auth_version
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'coffee-rails'
